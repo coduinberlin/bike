@@ -2,16 +2,24 @@
 
 ### Date created
 17.04.2024
+
 ### Project Title
 Bikeshare
 
 ### Description
-Udacity bikeshare project
+Bikeshare Project from Udaciry
+
+
 ### Files used
 bikeshare.py
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+
+
 This project is fun.
 This project is teaching me great skills
+
+
