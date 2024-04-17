@@ -11,7 +11,7 @@ DATA_FILES = {
 }
 
 def request_user_input():
-    print('Welcome! Ready to dive into US bikeshare data?')
+    print('Welcome! Ready to dive into US bikeshare data? I can help you with that')
     while True:
         selected_city = input("Enter the city (Chicago, NYC, DC): ").lower()
         if selected_city in DATA_FILES:
@@ -25,7 +25,7 @@ def request_user_input():
         if selected_month in valid_months:
             break
         print("Invalid choice. Select a month from January to June or type 'all'.")
-
+#explaining days
     valid_days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
     while True:
         selected_day = input("Choose a day to filter by (Monday to Sunday or 'all'): ").lower()
