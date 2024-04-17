@@ -24,7 +24,7 @@ def request_user_input():
         selected_month = input("Choose a month to filter by (January to June or 'all'): ").lower()
         if selected_month in valid_months:
             break
-        print("Invalid choice. Select a month from January to June or type 'all'.")
+        print("Invalid choice. Select a month from January to June or just type 'all'.")
 #explaining days
     valid_days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
     while True:
