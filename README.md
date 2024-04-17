@@ -12,3 +12,5 @@ Bikeshare Project from Udaciry
 ### Files used
 bikeshare.py
 
+This project is teaching me great skills
+This project is fun.
