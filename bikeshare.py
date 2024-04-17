@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
+
+#First section
 DATA_FILES = {
     'chicago': 'chicago.csv',
     'nyc': 'new_york_city.csv',
@@ -16,6 +18,7 @@ def request_user_input():
             break
         print("Please enter a valid city name: Chicago, NYC, or DC.")
 
+#explaining months
     valid_months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
     while True:
         selected_month = input("Choose a month to filter by (January to June or 'all'): ").lower()
